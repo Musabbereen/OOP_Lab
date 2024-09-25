@@ -55,10 +55,9 @@ class MaxStack {
           }
           return minStack.peek();
      }
-
+     //The TestCase Start From Here
      public static void main(String[] args) {
           MaxStack stack = new MaxStack();
-
 
           stack.push(3);
           stack.push(2);
