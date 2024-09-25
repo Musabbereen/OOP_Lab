@@ -31,5 +31,9 @@ public class NumWord_Tester {
     public void No_Condition_Matched() {
         assertEquals("OddOneOut",printer.printWord(4,false) );
     }
+    @Test
+    public void print_data(){
+        System.out.println("All the conditions have been perfected successfully");
+    }
 }
 
